@@ -7,6 +7,8 @@
     "@langchain/openai": "^0.5.15",
     "dotenv": "^16.5.0",
     "langchain": "^0.3.29",
-    "pdf-parse": "^1.1.1"
+    "pdf-parse": "^1.1.1",
+    "dummy": "trigger-update"
+
   }
 }
