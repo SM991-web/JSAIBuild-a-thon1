@@ -9,10 +9,10 @@ const agentThreads = {};
 export class AgentService {
   constructor() {
     this.client = AIProjectsClient.fromConnectionString(
-      "https://sneha-mc1fxzun-swedencentral.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview",
+      "southindia.api.azureml.ms;4babb726-4199-4323-9483-a1d76912e007;rg-my-agent;my-agent",
       new DefaultAzureCredential()
     );
-    this.agentId = "asst_7L4H4nIeOhKXUAL3uElqOSqx"; // Replace with real agent ID
+    this.agentId = "asst_8z7KMyOZwkxn8z9otZyZ9a9d"; // Replace with real agent ID
   }
 
   async getOrCreateThread(sessionId) {
