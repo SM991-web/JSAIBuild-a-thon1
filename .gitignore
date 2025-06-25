@@ -1,0 +1,12 @@
+.azure
+
+.dist
+node_modules
+package-lock.json
+.vscode
+
+
+genaiscript.d.ts
+tsconfig.json
+jsconfig.json
+.env
